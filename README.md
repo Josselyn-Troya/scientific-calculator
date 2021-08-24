@@ -21,8 +21,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 ```
-### Tambien se definieron varias variables de tipo EditText para cada uno de los botones seguido de la función findViewById() 
-que busca una vista determinada por su id dentro de un layout especifico.
+### Tambien se definieron varias variables de tipo EditText para cada uno de los botones seguido de la función findViewById() que busca una vista determinada por su id dentro de un layout especifico.
 ```
         b0=findViewById(R.id.b0);
         b1=findViewById(R.id.b1);
@@ -58,8 +57,7 @@ que busca una vista determinada por su id dentro de un layout especifico.
         input=findViewById(R.id.tvmain);
         output=findViewById(R.id.tvsec);
 ```
-### Despues se definieron los metodos para cada operación con setOnClickListener para controlar qué 
-ocurre cuando hacemos click en casa boton y OnClickListener para el modo tactil.
+### Despues se definieron los metodos para cada operación con setOnClickListener para controlar qué ocurre cuando hacemos click en casa boton y OnClickListener para el modo tactil.
 ```
 b0.setOnClickListener(new View.OnClickListener() {
             @Override
