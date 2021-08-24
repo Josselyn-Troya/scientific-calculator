@@ -57,7 +57,7 @@ import android.widget.Toast;
         input=findViewById(R.id.tvmain);
         output=findViewById(R.id.tvsec);
 ```
-### Despues se definieron los metodos para cada operación con setOnClickListener para controlar qué ocurre cuando hacemos click en casa boton y OnClickListener para el modo tactil.
+### Despues se definieron los metodos para cada operación con setOnClickListener para controlar qué ocurre cuando hacemos click en cada boton y OnClickListener para el modo tactil.
 ```
 b0.setOnClickListener(new View.OnClickListener() {
             @Override
